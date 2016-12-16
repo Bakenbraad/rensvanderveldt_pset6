@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("Earthquake view");
+
         // Get the listview
         lv = (ListView) findViewById(R.id.listView);
 
@@ -77,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
     public void goToSettings(View view) {
         Intent goToSettings = new Intent(this, SettingsActivity.class);
         startActivity(goToSettings);
-        finish();
     }
 
     public void loadData() {
