@@ -84,7 +84,9 @@ public class MainActivity extends AppCompatActivity {
     public void loadData() {
         new EQAsyncTask(this, this, settings).execute();
         QuakeAdapter adapter = new QuakeAdapter(this,R.layout.row_layout, earthquakesList);
+        adapter.notifyDataSetChanged();
         lv.setAdapter(adapter);
+
     }
 
     public void setList(ArrayList<EarthQuake> EarthQuakesList){
