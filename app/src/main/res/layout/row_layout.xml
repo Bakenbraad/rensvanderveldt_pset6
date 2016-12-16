@@ -16,12 +16,11 @@
             android:layout_weight="1">
 
             <TextView
-                android:text="Location: "
+                android:text="Place: "
                 android:textSize="19sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView8"
-                android:layout_weight="1" />
+                android:layout_width="119dp"
+                android:layout_height="54dp"
+                android:id="@+id/textView8" />
 
             <TextView
                 android:text="Magnitude: "
@@ -43,29 +42,28 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:weightSum="1">
 
             <TextView
                 android:text="Location"
                 android:textSize="19sp"
-                android:layout_width="match_parent"
+                android:layout_width="266dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/locationTV"
-                android:layout_weight="1" />
+                android:layout_weight="1.05" />
 
             <TextView
                 android:text="Magnitude"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/magTV"
-                android:layout_weight="1" />
+                android:id="@+id/magTV" />
 
             <TextView
                 android:text="Time"
-                android:layout_width="match_parent"
+                android:layout_width="266dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/timeTV"
-                android:layout_weight="1" />
+                android:id="@+id/timeTV" />
 
         </LinearLayout>
 

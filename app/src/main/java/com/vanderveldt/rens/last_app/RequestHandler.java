@@ -59,7 +59,8 @@ public class RequestHandler {
         String date = formatCal.format(calDate);
 
         // Get the inputstream from the created url, and return json to the asynctask.
-        InputStream is = new URL("http://earthquake.usgs.gov/fdsnws/event/1/query.geojson?endtime=" + date + "&minmagnitude=" + mag + "&orderby=time&limit=" + results).openStream();
+        String urlString = "http://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=" + date + "&minmagnitude=" + mag +"&orderby=time&limit=" + results;
+        InputStream is = new URL(urlString).openStream();
         try {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
             String jsonText = readAll(rd);
