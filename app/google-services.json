@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "705288315642",
+    "firebase_url": "https://lastapp-acea5.firebaseio.com",
+    "project_id": "lastapp-acea5",
+    "storage_bucket": "lastapp-acea5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705288315642:android:0fbe19b65063411c",
+        "android_client_info": {
+          "package_name": "com.vanderveldt.rens.last_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705288315642-j7tv3ugn5udms3vtb8bjeq6memsr3jj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWmqeKRZPT_9W_tqxornJUj9fWKrlghY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705288315642-j7tv3ugn5udms3vtb8bjeq6memsr3jj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
